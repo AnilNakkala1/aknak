@@ -1,9 +1,9 @@
-void setup() {
-  // put your setup code here, to run once:
+void setup() 
+  {
+    pinMode(2, OUTPUT);
+  }
 
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
+  void loop() 
+  {
+    digitalWrite(2, HIGH);
+  }
